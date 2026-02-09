@@ -40,7 +40,7 @@ const CartPage = () => {
                             </p>
                         </div>
 
-                        <div className="font-bold mr-4">₹{item.totalPrice.toFixed(0)}</div>
+                        <div className= "font-bold mr-4">₹{item.totalPrice.toFixed(0)}</div>
 
                         <button onClick={() => removeFromCart(index)}>
                             <Trash className="text-red-500" />

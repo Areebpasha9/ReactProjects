@@ -17,8 +17,7 @@ const ProductCard = ({ product }) => {
   const handleQuantityChange = (change) => {
     setQuantity(prev => Math.max(1, prev + change));
   };
-  const gstPrice = selectedSize.price * 5 / 100;
-  console.log(gstPrice);
+ 
   const handleAddToCart = () => {
     addToCart({
       id: product.id,
